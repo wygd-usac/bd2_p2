@@ -6,25 +6,25 @@ INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cli
 VALUES( 'Camden','Gaines','1077 Lectus C.','2981 89939 0173');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES( 'Asher,Waters','Apdo.:513-8159 Eleifend ','9963 16151 7732');
+VALUES( 'Asher','Waters','Apdo.:513-8159 Eleifend ','9963 16151 7732');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES('Rudyard','Harris,Apdo.:352-6509 Lorem. Ctra.','9087 56247 7704' );
+VALUES('Rudyard','Harris','Apdo.:352-6509 Lorem. Ctra.','9087 56247 7704' );
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES( 'Carol','Barber',"Apartado núm.: 236, 126 Fusce Calle",'2609 20653 9972');
+VALUES( 'Carol','Barber','Apartado núm.: 236, 126 Fusce Calle','2609 20653 9972');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES('Elizabeth,Stafford','Apdo.:745-899 Congue Av.','5699 72802 9842' );
+VALUES('Elizabeth','Stafford','Apdo.:745-899 Congue Av.','5699 72802 9842' );
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES( 'Griffith','Powers',"164-1179 Lorem, C.",'4710 60381 8085');
+VALUES( 'Griffith','Powers','164-1179 Lorem, C.','4710 60381 8085');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES( 'Walker','Lester',"Apartado núm.: 681, 1098 Proin Avenida",'8377 28932 1266');
+VALUES( 'Walker','Lester','Apartado núm.: 681, 1098 Proin Avenida','8377 28932 1266');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
-VALUES( 'Whilemina','Crane','7931 Ut Carretera',2936 25166 4208);
+VALUES( 'Whilemina','Crane','7931 Ut Carretera','2936 25166 4208');
 
 INSERT INTO "CLIENTE" (nombre_cliente,apellido_cliente,direccion_cliente,dpi_cliente)
 VALUES( 'Tanek','Macdonald','972-5032 Nibh. ','1201 13908 1758');
@@ -87,34 +87,34 @@ VALUES('Producto 10',68.00,50);
 --------------------------------Insercion de facturas------------------------------------
 -----------------------------------------------------------------------------------------
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(1,1,27-APR-21);
+VALUES(1,1,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(1,2,27-APR-21);
+VALUES(1,2,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(1,3,27-APR-21);
+VALUES(1,3,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(4,5,27-APR-21);
+VALUES(4,5,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(3,1,27-APR-21);
+VALUES(3,1,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(6,2,27-APR-21);
+VALUES(6,2,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(6,5,27-APR-21);
+VALUES(6,5,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(7,4,27-APR-21);
+VALUES(7,4,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(8,4,27-APR-21);
+VALUES(8,4,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 INSERT INTO "FACTURA" (id_cliente,id_vendedor,fecha_factura)
-VALUES(5,2,27-APR-21);
+VALUES(5,2,TO_DATE('2014-07-25','YYYY-MM-DD'));
 
 -----------------------------------------------------------------------------------------
 -------------------------------Insercion detalle factura---------------------------------
